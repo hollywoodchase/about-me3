@@ -1,0 +1,94 @@
+.nav {
+  height: 12vh;
+  border-bottom: 2px solid black; }
+
+#logo-link {
+  width: 5em;
+  margin-left: 1em;
+  height: 10em; }
+
+#dc-logo {
+  height: 10em;
+  max-width: 100%;
+  max-height: 100%; }
+
+#header {
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-around; }
+
+#bar-logo {
+  align-self: flex-end;
+  border: 2px solid black;
+  display: flex;
+  justify-content: right; }
+
+#bars {
+  height: 5em;
+  width: 5em;
+  border: 2px solid black;
+  align-self: center; }
+
+.row {
+  display: flex;
+  flex-flow: row; }
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 29.5vh; }
+
+.images {
+  height: 29.5vh;
+  width: 33.4vw;
+  opacity: 0;
+  overflow: hidden;
+  display: flex;
+  border-radius: 10px;
+  transition: opacity 1s; }
+  .images:hover {
+    opacity: 1; }
+
+#center-image {
+  width: 33.4vw;
+  opacity: 1;
+  object-fit: none;
+  justify-content: flex-start;
+  align-self: center; }
+
+.tile-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+
+.icons {
+  position: absolute;
+  opacity: 1;
+  width: 5em; }
+
+@keyframes fade {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+@keyframes brighten {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.faded {
+  animation-name: fade;
+  animation-duration: .75s;
+  opacity: 0; }
+
+.brightened {
+  animation-name: brighten;
+  animation-duration: .75s;
+  opacity: 1; }
+
+.not-faded {
+  opacity: 1; }
+
+/*# sourceMappingURL=style.css.map */
