@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style><?php include 'CSS/main.css'; ?></style>
     <title>Danny Calise</title>
 </head>
 <body>
@@ -48,10 +49,8 @@
                 </a>
             </div>
             <div class="col-sm-4 tile">
-                <div id="image-div" style="background-image: url('https://fontmeme.com/permalink/190906/a361c480d469427636c61cae9b48e4cc.png')">
-                    <!-- <h1>lalala</h1> -->
-                    <!-- <img id="center-image" class="images" src="images/Calise-cartoon.png"> -->
-                    <!-- <a id="dc-image-link" href="https://fontmeme.com/ac-dc-font/"><img src="https://fontmeme.com/permalink/190906/a361c480d469427636c61cae9b48e4cc.png" alt="ac-dc-font" border="0"></a> -->
+                <div id="image-div">
+                    <img id="center-image" class="images" src="images/Calise-cartoon.png">
                 </div>
             </div>
             <div class="col-sm-4 tile op-tile">
